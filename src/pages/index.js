@@ -13,7 +13,7 @@ export default function Home() {
 
   return (
     <div style={{ padding: '20px' }}>
-      <h1 className='text-red-500'>ব্লগ পোস্টের তালিকা</h1>
+      <h1 className='text-red-500'>Blog ost List</h1>
       <ul>
         {posts.slice(0, 10).map((post) => (
           <li key={post.id}>
